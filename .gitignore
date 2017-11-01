@@ -1,2 +1,6 @@
 *.o
 *.exe
+*.cbp
+*.layout
+*.depend
+*.gch
