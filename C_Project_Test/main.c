@@ -88,6 +88,16 @@ void fun_fun(int a)
 //{
 //    ;
 //}
+void parameterTest(int a, int b, int c, int d, int e)
+{
+//    cout<<a<<", "<<b<<", "<<c<<", "<<d<<", "<<e<<endl;
+    printf("%d, %d, %d, %d, %d\n", a, b, c, d, e);
+}
+
+void parameterTest2(int a, int b, int c)
+{
+    printf("%d, %d, %d\n", a, b, c);
+}
 
 int main()
 {
@@ -95,7 +105,13 @@ int main()
 
 
 
-
+//    int i = 1;
+//    int j = 1;
+////    parameterTest2(i++, i++, i++);      //321
+//    parameterTest2(++i, ++i, ++i);          //4,4,4
+//    parameterTest2(--i, --i, --i);      //1,1,1
+//    parameterTest2(i--, i--, --i);      //-1,0,-2
+//    parameterTest(++i, i++, ++i, ++j, j++);  //4,2,4,3,1,也是这个，和cpp一样
 
 //    int a;
 //    static int b;

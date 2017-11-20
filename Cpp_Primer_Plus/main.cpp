@@ -303,6 +303,15 @@ void printAaAa()
     cout<<"AaAa:"<<aAaA<<endl;
 }
 
+void parameterTest(int a, int b, int c, int d, int e)
+{
+    cout<<a<<", "<<b<<", "<<c<<", "<<d<<", "<<e<<endl;
+}
+
+void parameterTest2(int a, int b, int c)
+{
+    cout<<a<<", "<<b<<", "<<c<<endl;
+}
 
 int main()
 {
@@ -310,9 +319,15 @@ int main()
 
 
 
+//    int i = 1;
+//    int j = 1;
+////    parameterTest2(i++, i++, i++);  //321
+//    parameterTest2(++i, ++i, ++i);      //4,4,4
+//    parameterTest2(--i, --i, --i);      //1,1,1
+//    parameterTest2(i--, i--, --i);      //-1,0,-2
+//    parameterTest(++i, i++, ++i, ++j, j++);  //4,2,4,3,1
 
-
-    printAaAa();
+//    printAaAa();
 
 //    int a = 4;
 //    {
